@@ -10,6 +10,10 @@ const projects = [
     {
         url: 'project-no-3/pr03.html',
         title: 'Projekt#3: RegExp i walidator hasła'
+    },
+    {
+        url: 'project-no-4/pr04.html',
+        title: 'Projekt#4: Konwerter °C na °F'
     }
 ];
 
