@@ -14,6 +14,10 @@ const projects = [
     {
         url: 'project-no-4/pr04.html',
         title: 'Projekt#4: Konwerter °C na °F'
+    },
+    {
+        url: 'project-no-5/pr05.html',
+        title: 'Projekt#5: Menu hamburger'
     }
 ];
 
