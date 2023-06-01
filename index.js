@@ -18,6 +18,10 @@ const projects = [
     {
         url: 'project-no-5/pr05.html',
         title: 'Projekt#5: Menu hamburger'
+    },
+    {
+        url: 'project-no-6/pr06.html',
+        title: 'Projekt#6: Aktualny dzień + losowa ciekawostka'
     }
 ];
 
