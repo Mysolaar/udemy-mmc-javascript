@@ -1,32 +1,38 @@
 const projects = [
-    {
-        url: 'project-no-1/pr01.html',
-        title: 'Projekt#1: Chowanie i odkrywanie obrazka'
-    },
-    {
-        url: 'project-no-2/pr02.html',
-        title: 'Projekt#2: Powiększ, pomniejsz i zmień kolor'
-    },
-    {
-        url: 'project-no-3/pr03.html',
-        title: 'Projekt#3: RegExp i walidator hasła'
-    },
-    {
-        url: 'project-no-4/pr04.html',
-        title: 'Projekt#4: Konwerter °C na °F'
-    },
-    {
-        url: 'project-no-5/pr05.html',
-        title: 'Projekt#5: Menu hamburger'
-    },
-    {
-        url: 'project-no-6/pr06.html',
-        title: 'Projekt#6: Aktualny dzień + losowa ciekawostka'
-    }
+  {
+    url: "project-no-1/pr01.html",
+    title: "Projekt#1: Chowanie i odkrywanie obrazka",
+  },
+  {
+    url: "project-no-2/pr02.html",
+    title: "Projekt#2: Powiększ, pomniejsz i zmień kolor",
+  },
+  {
+    url: "project-no-3/pr03.html",
+    title: "Projekt#3: RegExp i walidator hasła",
+  },
+  {
+    url: "project-no-4/pr04.html",
+    title: "Projekt#4: Konwerter °C na °F",
+  },
+  {
+    url: "project-no-5/pr05.html",
+    title: "Projekt#5: Menu hamburger",
+  },
+  {
+    url: "project-no-6/pr06.html",
+    title: "Projekt#6: Aktualny dzień + losowa ciekawostka",
+  },
+  {
+    url: "project-no-7/pr07.html",
+    title: "Projekt#7: Losowy pies z dog.ceo API",
+  },
 ];
 
-const projectList = document.querySelector('ul');
+const projectList = document.querySelector("ul");
 
-const createProjectList = projects.map(project => `<li><a href="${project.url}">${project.title}</a></li>`).join('');
+const createProjectList = projects
+  .map((project) => `<li><a href="${project.url}">${project.title}</a></li>`)
+  .join("");
 
 projectList.insertAdjacentHTML("beforeend", createProjectList);
