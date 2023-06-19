@@ -12,3 +12,5 @@
 5: Hamburger menu
 
 6: Current day + random trivia
+
+7: Display random dog from dog.ceo API (with axios)
